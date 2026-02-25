@@ -25,6 +25,11 @@ data/
 *.jpg
 *.jpeg
 
-# Arquivos soltos/lixo (ajuste se necessário)
-180
-w
+# Modelos TISS/Unimed com dados reais (Nunca versionar)
+configs/*tiss*.xml
+configs/unimed_*tiss*.xml
+configs/unimed_exemplo_*.xml
+configs/unimed_modelo*.xml
+configs/unimed_modelo.xml
+configs/unimed_exemplo_tiss*.xml
+configs/*tiss_clean*.xml
